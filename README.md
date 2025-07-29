@@ -28,7 +28,7 @@ python -m venv .venv && source .venv/bin/activate   # optional but recommended
 pip install -r requirements.txt                     # google‑generativeai, pytz, tzlocal, …
 
 # 3. Set your Gemini API key
-export GEMINI_API_KEY="sk‑xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+gemini_api_key="sk‑xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 
 # 4. Run the notebook (or write your own script)
 jupyter lab RunFromHere.ipynb
