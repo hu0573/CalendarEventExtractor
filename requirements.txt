@@ -1,0 +1,8 @@
+# Core libraries
+google-generativeai==0.8.5   # Gemini SDK
+tzlocal==5.3.1               # Detect local OS time‑zone
+pytz==2025.2                 # Olson database + helpers (for .ics export)
+
+# Interactive / notebook helpers
+ipython==9.4.0               # Needed for clear_output() convenience
+jupyterlab==4.4.5            # Optional: run the demo notebook
